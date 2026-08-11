@@ -1,0 +1,26 @@
+{
+  "name": "learn-backend",
+  "version": "1.0.0",
+  "description": "learn-backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Hizkia",
+  "license": "ISC",
+  "dependencies": {
+    "24": "^0.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14",
+    "pg": "^8.23.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.8"
+  },
+  "type": "module",
+  "devDependencies": {
+    "sequelize-cli": "^6.6.5"
+  }
+}
